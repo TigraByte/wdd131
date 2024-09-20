@@ -1,0 +1,138 @@
+body {
+    display: grid;
+    font-family: "Dekko", cursive;
+    font-weight: 100;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+/* .dekko-regular {
+    font-family: "Dekko", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+nav {
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #A91B0D;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #0f2e4d;
+    color: white;
+    text-align: start;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+h1 span{
+    color: #A91B0D;
+}
+h2{
+    text-align: center;
+    border: 1px solid #0f2e4d;
+    background-color:#0f2e4d;
+    color: white;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+
+main {
+    color: black;
+    /* text-align: start; */
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+p{
+    padding: 10px
+}
+/* aside {
+    background-color: white;
+    color: black;
+    float: right;
+    /* grid-column: 2;
+    grid-row: 2; */
+    /* padding-left: 10px;
+} */ 
+/* section{
+    display: grid;
+    grid-column: 2;
+} */
+img{
+    float: right;
+}
+
+footer {
+    background-color:#0f2e4d;
+    color: white;
+    text-align: center;
+    padding: 1px 25px 10px 25px;
+    grid-column: 1;
+    grid-row: 3;
+}
+/* Class Selectors */
+.city{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 0px;
+}
+
+.card{
+ border:#A91B0D 1px solid;
+ border-radius: 10px;
+ background-color: white;
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+.flagimage{
+    width: 150px;
+    padding: 10px;
+    float: left;
+}
+.profileimage{
+    width: 100px;
+    float: right;
+    padding: 10px;
+}
+
+/* ID Selectors */
+
+#section1{
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 1px solid;
+    margin-right: 10px
+}
+#section2{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 5px;
+}
+
