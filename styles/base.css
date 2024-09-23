@@ -89,6 +89,12 @@ footer {
     grid-column: 1;
     grid-row: 3;
 }
+figure{
+    float: left;
+}
+figcaption{
+    text-align: center;
+}
 
 /* Class Selectors */
 .city {
